@@ -96,3 +96,7 @@ footer {
     padding: 20px;
     background: #ccc;
 }
+
+footer li {
+    list-style: none;
+}
