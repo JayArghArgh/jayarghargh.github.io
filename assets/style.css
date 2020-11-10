@@ -18,6 +18,24 @@ header {
     background: #ccc;
 }
 
+nav {
+
+    float: left;
+    width: 100%;
+
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    width: 30%;
+    background-color: #666666;
+    color: #eeeeee;
+    height: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
 section {
     padding: 20px;
     margin-bottom: 20px;
@@ -66,7 +84,7 @@ section {
 aside {
     background-color: #ffffff;
     width: 33%;
-    height: 200px;
+    /*height: 200px;*/
     border: #000000 solid 1px;
     padding: 20px;
     float: left;
