@@ -7,6 +7,39 @@
     text-align: center;
 }
 
+p, a {
+    /*font-family: 'Big Shoulders Stencil Text', cursive;*/
+    font-size: 36px;
+    line-height: 48px;
+    /*font-family: 'Big Shoulders Stencil Text', cursive;*/
+    font-family: 'Special Elite', cursive;
+    /*font-family: 'Xanh Mono', monospace;*/
+}
+
+p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
+
+a {
+    color: #2db34a;
+    background-color: #222222;
+}
+a:hover {
+    color: yellow;
+    background-color: #222222;
+}
+
+a:focus {
+    color: #1D88E5;
+    background-color: #333333;
+}
+
+a:active {
+    color: white;
+    background-color: #666666;
+}
+
 body {
     font-size: 24px;
 }
@@ -79,6 +112,7 @@ section {
     background: #6ea3da;
     padding: 20px;
     margin-top: 20px;
+    width: 100%;
 }
 
 aside {
@@ -93,6 +127,7 @@ aside {
 
 footer {
     clear: both;
+    width: 100%;
     padding: 20px;
     background: #ccc;
 }
