@@ -1,0 +1,199 @@
+/*ff9900 nice orange :)*/
+
+body {
+    margin:0px;
+}
+
+.colour-block {
+    background:#000;
+    /*background:#823A9C;*/
+    width:100%;
+    padding:7% 20% 10% 20%;
+    color:#fff;
+}
+
+.white-block {
+    background:#fff;
+    width:60%;
+    padding:7% 20% 10% 20%;
+    color:#823A9C;
+}
+
+h1 {
+    text-align:center;
+    font-size:80px;
+    font-family:'wire one', serif;
+    font-weight:normal;
+}
+
+p {
+    font-size:20px;
+    font-family:'Raleway', serif;
+}
+
+footer {
+    color: white;
+}
+
+.bg-dark {
+    background-color: #000;
+    /*background-color: #212529;*/
+}
+
+.bg-black {
+    background-color: #000;
+    color: white;
+}
+
+.profile-pic {
+    object-fit: cover;
+    height: 250px;
+    width: auto;
+}
+
+.curved-div svg {
+    display: block;
+}
+
+.fab, .far, .fas {
+    color: white;
+}
+
+.custom-li {
+    color: black;
+}
+
+.wave-black-top {
+    background-color: black;
+}
+
+/*------------------*/
+/*  SKEW CLOCKWISE  */
+/*------------------*/
+.skew-cc{
+    width:100%;
+    height:100px;
+    position:absolute;
+    left:0px;
+    background: linear-gradient(to right bottom, #000000 49%, #fff 50%), linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.skew-c{
+    width:100%;
+    height:100px;
+    position:absolute;
+    left:0px;
+    background: linear-gradient(to left bottom, #fff 49%, #000000 50%);
+}
+
+
+/* Block quote*/
+
+html {
+    background: #eff0ef;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.testimonial-quote {
+    font-size: 16px;
+}
+
+.testimonial-quote blockquote {
+    /* Negate theme styles */
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+    background: none;
+    color: gray;
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    font-style: italic;
+    line-height: 1.4 !important;
+    margin: 0;
+    position: relative;
+    text-shadow: 0 1px white;
+    z-index: 600;
+}
+
+.testimonial-quote blockquote * {
+    box-sizing: border-box;
+}
+
+.testimonial-quote blockquote p {
+    color: #75808a;
+    line-height: 1.4 !important;
+}
+
+.testimonial-quote blockquote p:first-child:before {
+    content: '\201C';
+    color: #81bedb;
+    font-size: 7.5em;
+    font-weight: 700;
+    opacity: .3;
+    position: absolute;
+    top: -.4em;
+    left: -.2em;
+    text-shadow: none;
+    z-index: -300;
+}
+
+.testimonial-quote img {
+    border: 3px solid #9CC1D3;
+    border-radius: 50%;
+    display: block;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: -.2em;
+    left: 0;
+}
+
+.testimonial-quote cite {
+    color: gray;
+    display: block;
+    font-size: .8em;
+}
+
+.testimonial-quote cite span {
+    color: #5e5e5e;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 1px white;
+}
+
+.testimonial-quote {
+    position: relative;
+}
+
+.testimonial-quote .quote-container {
+    padding-left: 160px;
+    padding-bottom: 50px;
+}
+
+.testimonial-quote.right .quote-container {
+    padding-left: 0;
+    padding-right: 160px;
+}
+
+.testimonial-quote.right img {
+    left: auto;
+    right: 0;
+}
+
+.testimonial-quote.right cite {
+    text-align: right;
+}
