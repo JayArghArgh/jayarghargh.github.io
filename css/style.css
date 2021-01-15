@@ -4,14 +4,6 @@ body {
     margin:0px;
 }
 
-.colour-block {
-    background:#000;
-    /*background:#823A9C;*/
-    width:100%;
-    padding:7% 20% 10% 20%;
-    color:#fff;
-}
-
 .white-block {
     background:#fff;
     width:60%;
@@ -67,9 +59,15 @@ footer {
     background-color: black;
 }
 
-/*------------------*/
-/*  SKEW CLOCKWISE  */
-/*------------------*/
+.portfolio-image {
+    object-fit: cover;
+    width: 25%;
+    height: 25%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Skew */
 .skew-cc{
     width:100%;
     height:100px;
@@ -78,16 +76,47 @@ footer {
     background: linear-gradient(to right bottom, #000000 49%, #fff 50%), linear-gradient(-50deg, #ffffff 16px, #000 0);
 }
 
-
-/*-------------------------*/
-/* SKEW COUNTER CLOCKWISE  */
-/*-------------------------*/
 .skew-c{
     width:100%;
     height:100px;
     position:absolute;
     left:0px;
     background: linear-gradient(to left bottom, #fff 49%, #000000 50%);
+}
+
+.skew-c-white{
+    width:100%;
+    height:100px;
+    position:absolute;
+    left:0px;
+    background: linear-gradient(to left bottom, #000 49%, #fff 50%);
+}
+
+.colour-block {
+    background:#000;
+    /*background:#823A9C;*/
+    width:100%;
+    padding:7% 20% 10% 20%;
+    color:#fff;
+}
+
+.colour-block-white {
+    background:#ffffff;
+    /*background:#823A9C;*/
+    width:100%;
+    padding:7% 20% 1% 20%;
+    color:#000;
+}
+
+.firstcharacter {
+    color: #000;
+    float: left;
+    font-family: Georgia;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
 }
 
 
@@ -97,12 +126,12 @@ html {
     background: #eff0ef;
 }
 
-h1 {
-    font-size: 24px;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+/*h1 {*/
+/*    font-size: 24px;*/
+/*    text-align: center;*/
+/*    margin-top: 40px;*/
+/*    margin-bottom: 40px;*/
+/*}*/
 
 .testimonial-quote {
     font-size: 16px;
