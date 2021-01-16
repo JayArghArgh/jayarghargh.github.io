@@ -131,13 +131,6 @@ html {
     background: #eff0ef;
 }
 
-/*h1 {*/
-/*    font-size: 24px;*/
-/*    text-align: center;*/
-/*    margin-top: 40px;*/
-/*    margin-bottom: 40px;*/
-/*}*/
-
 .testimonial-quote {
     font-size: 16px;
 }
@@ -235,4 +228,40 @@ html {
 /* Modals */
 ul.fa-ul li a {
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #profile-pic-holder {
+        width: 100%;
+    }
+
+    .profile-image {
+        object-fit: cover;
+        width: 100%;
+        height: 250px;
+    }
+
+    h1 {
+        padding-top: 20%;
+        text-align:center;
+        font-size:48px;
+        font-family:'wire one', serif;
+        font-weight:normal;
+    }
+    .skew-c{
+        width:100%;
+        height:50px;
+        position:absolute;
+        left:0px;
+        background: linear-gradient(to left bottom, #fff 49%, #000000 50%);
+    }
+
+    .skew-c-white{
+        width:100%;
+        height:50px;
+        position:absolute;
+        left:0px;
+        background: linear-gradient(to left bottom, #000 49%, #fff 50%);
+    }
 }
