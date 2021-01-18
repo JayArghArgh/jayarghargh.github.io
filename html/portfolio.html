@@ -5,10 +5,90 @@
 			<p>My portfolio covers a range of products, from CAD drafting, to GIS, Web sites, and various coding projects.</p>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-sm-12 col-md-3"><img class="portfolio-image-div" src="img/coding_quiz.png"></div>
-		<div class="col-sm-12 col-md-3"><img class="portfolio-image-div" src="img/project_1.png"></div>
-		<div class="col-sm-12 col-md-3"><img class="portfolio-image-div" src="img/weather_forecast.png"></div>
-		<div class="col-sm-12 col-md-3"><img class="portfolio-image-div" src="img/arghcade.png"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-3">
+				<div class="card">
+					<img id="image_1" src="img/project_1.png" class="card-img-top" alt="Hangry - for food lovers">
+					<div class="card-body">
+						<p class="card-text">Recipe search website using.</p>
+						<ul>
+							<li>3 Separate API</li>
+							<li>jQuery</li>
+							<li>Materialize Framework</li>
+						</ul>
+						<ul class="fa-ul">
+							<li><span class="fa-li"><i class="fab fa-internet-explorer custom-li"></i></span><a href="https://lindahlubi.github.io/Project-1/index.html?about" target="_blank">View</a></li>
+							<li><span class="fa-li"><i class="fab fa-github custom-li"></i></span><a href="https://github.com/LindaHlubi/Project-1" target="_blank">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3">
+				<div class="card">
+					<img id="image_2" src="img/coding_quiz.png" class="card-img-top" alt="A customisable coding quiz">
+					<div class="card-body">
+						<p class="card-text">Coding Quiz</p>
+						<ul>
+							<li>HTML</li>
+							<li>jQuery</li>
+							<li>Local Storage</li>
+						</ul>
+						<ul class="fa-ul">
+							<li><span class="fa-li"><i class="fab fa-internet-explorer custom-li"></i></span><a href="https://github.com/JayArghArgh/customisable-quiz/" target="_blank">View</a></li>
+							<li><span class="fa-li"><i class="fab fa-github custom-li"></i></span><a href="https://github.com/JayArghArgh/customisable-quiz/" target="_blank">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3">
+				<div class="card">
+					<img id="image_3" src="img/weather_forecast.png" class="card-img-top" alt="Weather information website">
+					<div class="card-body">
+						<p class="card-text">Weather Search Web App.</p>
+						<ul>
+							<li>Google Places and OpenWeather API</li>
+							<li>jQuery</li>
+							<li>Bootstrap Framework</li>
+						</ul>
+						<ul class="fa-ul">
+							<li><span class="fa-li"><i class="fab fa-internet-explorer custom-li"></i></span><a href="https://jayarghargh.github.io/weather-dashboard/" target="_blank">View</a></li>
+							<li><span class="fa-li"><i class="fab fa-github custom-li"></i></span><a href="https://github.com/JayArghArgh/weather-dashboard" target="_blank">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-3">
+				<div class="card">
+					<img id="image_4" src="img/arghcade.png" class="card-img-top" alt="A partial Frogger clone as a Phaser.io example">
+					<div class="card-body">
+						<p class="card-text">A simple Phaser.io Demonstration.</p>
+						<ul>
+							<li>Phaser.io</li>
+							<li>jQuery</li>
+							<li>Local Storage</li>
+						</ul>
+						<ul class="fa-ul">
+							<li><span class="fa-li"><i class="fab fa-internet-explorer custom-li"></i></span><a href="https://jayarghargh.github.io/arghcade/" target="_blank">View</a></li>
+							<li><span class="fa-li"><i class="fab fa-github custom-li"></i></span><a href="https://github.com/JayArghArgh/arghcade" target="_blank">GitHub</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
+
+<!-- The Modal -->
+<div id="portfolio-modal" class="modal">
+	<!-- The Close Button -->
+	<span class="close">&times;</span>
+
+	<!-- Modal Content (The Image) -->
+	<img class="modal-content" id="modal_image">
+
+	<!-- Modal Caption (Image Text) -->
+	<div id="caption"></div>
+</div>
+
+<script src="js/image_modals.js" type="text/javascript"></script>
