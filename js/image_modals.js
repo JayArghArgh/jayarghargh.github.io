@@ -28,9 +28,8 @@ img1.onclick = function(){
 }
 
 let img2 = document.getElementById("image_2");
-const img2_text = "<h3>Coding Quiz Challenge!</h3><p>A simple quiz website which allows the site owner" +
-  " to swap in / out quiz questions.</p>" +
-  "<p>This website was constructed using HTML5 and using local storage for the users answers.</p>";
+const img2_text = "<h3><a href='http://www.bettibet.com' target='_blank' title='Betti!'>Betti!</a></h3><p>A website that lets you bet directly against a friend!</p>" +
+  "<p>As part of a team I contributed to the ideation, design, frontend, and backend of this webapp. It is an ongoing development for which we are still excited about.</p>";
 img2.onclick = function(){
 	modal.style.display = "block";
 	modalImg.src = this.src;

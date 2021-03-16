@@ -23,10 +23,6 @@ p {
     font-family:'Raleway', serif;
 }
 
-footer {
-    color: white;
-}
-
 .bg-dark {
     background-color: #000;
     /*background-color: #212529;*/
@@ -273,4 +269,27 @@ ul.fa-ul li a {
         left:0px;
         background: linear-gradient(to left bottom, #000 49%, #fff 50%);
     }
+}
+
+/*.main {*/
+/*    margin-bottom: 200px;*/
+/*}*/
+
+
+.footer {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: black;
+    color: whitesmoke;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    width: 100%;
+}
+
+.footer a {
+    color: whitesmoke;
+}
+
+.footer a:hover {
+    color: grey;
 }
