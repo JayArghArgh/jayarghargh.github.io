@@ -19,13 +19,23 @@ let modalImg = document.getElementById("modal_image");
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 // TODO This doesn't adhere to DRY (ran out of time!)
 let img1 = document.getElementById("image_1");
-const img1_text = "<h3>Hangry!</h3><p>A website created to pair foodies with food!</p>" +
-  "<p>Hangry was built using mobile first principles, and is powered by the Edamam.com API, JavaSCript, HTML, and jQuery.</p>";
+const img1_text = "<h3>Emplectory!</h3><p>Search your employees, pat em down Ralph!</p>" +
+  "<p>A React.js built website deployed on GitHub pages. Retrieves employees from API using Axios. Allows filtering and sorting.</p>";
 img1.onclick = function(){
-	modal.style.display = "block";
-	modalImg.src = this.src;
-	captionText.innerHTML = img1_text;
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = img1_text;
 }
+
+
+// let img1 = document.getElementById("image_1");
+// const img1_text = "<h3>Hangry!</h3><p>A website created to pair foodies with food!</p>" +
+//   "<p>Hangry was built using mobile first principles, and is powered by the Edamam.com API, JavaSCript, HTML, and jQuery.</p>";
+// img1.onclick = function(){
+// 	modal.style.display = "block";
+// 	modalImg.src = this.src;
+// 	captionText.innerHTML = img1_text;
+// }
 
 let img2 = document.getElementById("image_2");
 const img2_text = "<h3><a href='http://www.bettibet.com' target='_blank' title='Betti!'>Betti!</a></h3><p>A website that lets you bet directly against a friend!</p>" +
